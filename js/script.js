@@ -7,7 +7,7 @@
   //initialize map3
   var map3 = L.map('map3', {
     scrollWheelZoom: true
-  }).setView( [40.706913,-73.987513], 13)
+  }).setView( [40.706913,-73.987513], 14)
     map3.locate({setView: true, maxZoom: 13});
 
   //CartoDB Basemap

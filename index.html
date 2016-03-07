@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Tyler Gumpright HW4</title>
+  <title>Tyler Gumpright HW5</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
 
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
    <link rel="stylesheet" href="css/styles.css" />
-
+<link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
 
 
@@ -26,7 +26,12 @@
  <div class="jumbotron">
   <h1>NYC Bike Routes 2015</h1>
   <p>NYC's bike lane network has grown extensively over the years. Hover over a lane below to see the date that it was installed. This map was created using the publically accessible bike route shapefile from the NYC DOT Website</p>
-  <p><a class="btn btn-primary btn-lg" href="http://www.nyc.gov/html/dot/html/about/datafeeds.shtml#bikes" role="button">Data Source</a></p>
+  <div class="row">
+
+  <div class="col-md-8">This site is based on my hypothesis that Manhattan and Northern Brooklyn are the recipients of the bulk of new bike lane construction in NYC. There is a certain logic for developing bike lanes from a central node, however it does have implications for equity. The outer boroughs such as Queens and the Bronx stack up in terms of lane milage, but these lanes tend to be older and built to previous design standards, which in turn offers less protection than newer protected class lanes. This data also might help community activists such as <a href="http://www.qns.bike/">QNS.BIKE</a> target greater neighborhood connectivity. </div>
+  <div class="col-md-4"><img src='https://upload.wikimedia.org/wikipedia/en/thumb/1/19/NYCDOT.svg/150px-NYCDOT.svg.png'</img><br>This project was made possible using data from the NYC DOT</div>
+</div>
+  <br><a class="btn btn-primary btn-lg" href="http://www.nyc.gov/html/dot/html/about/datafeeds.shtml#bikes" role="button">Data Source</a></p>
 </div>
 
 </div>
